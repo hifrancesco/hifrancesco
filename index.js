@@ -17,8 +17,13 @@ let DATA = {
         minute: 'numeric',
         timeZoneName: 'short',
         timeZone: 'Europe/London',
-    company: 'KPMG',
     }),
+    company: 'KPMG',
+    role: 'DevOps Engineer',
+    team: 'engineering',
+    tech_stack: 'aws, python, github, linux, terraform',
+    hobbies: 'chess and football',
+    project: 'github actions project'
 };
 /**
  * A - We open 'main.mustache'
