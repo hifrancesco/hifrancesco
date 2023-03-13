@@ -18,7 +18,6 @@ let DATA = {
         timeZoneName: 'short',
         timeZone: 'Europe/London',
     company: 'KPMG',
-    
     }),
 };
 /**
