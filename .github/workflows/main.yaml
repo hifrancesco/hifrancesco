@@ -33,8 +33,6 @@ jobs:
           pip install -r requirements.txt
       - name: Generate README file
         run: node index.js
-      - name: Python
-        run: python3 main.py
       - name: Commit and Push new README.md to the repository
         uses: mikeal/publish-to-github-action@master
         env:
