@@ -18,15 +18,15 @@ headers = {
 response = requests.get(url, headers=headers, params=querystring)
 
 # Check if the response was successful
-if response.status_code == 200:
+# if response.status_code == 200:
     # Replace all single quotes with double quotes
-    json_str = response.text.replace("'", "\"")
+json_str = response.text.replace("'", "\"")
 
     # Parse the modified JSON response
-    data = json.loads(json_str)
+data = json.loads(json_str)
     # print(data['country_code'])
-else:
-    print('Request failed with status code', response.status_code)
+# else:
+#     print('Request failed with status code', response.status_code)
 
 
 # Extract the relevant information from the JSON response
