@@ -30,9 +30,9 @@ data = json.loads(json_str)
 
 
 # Extract the relevant information from the JSON response
-city_name = data["city_name"]
-country_code = data["country_code"]
-timezone = data["timezone"]
+city_name = data['city_name']
+country_code = data['country_code']
+timezone = data['timezone']
 
 # Get the list of forecast data points
 forecast_data = data["data"]
