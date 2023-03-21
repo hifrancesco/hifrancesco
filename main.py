@@ -18,21 +18,38 @@ headers = {
 response = requests.get(url, headers=headers, params=querystring)
 
 # Check if the response was successful
-# if response.status_code == 200:
+if response.status_code == 200:
     # Replace all single quotes with double quotes
-json_str = response.text.replace("'", "\"")
+    json_str = response.text.replace("'", "\"")
 
     # Parse the modified JSON response
-data = json.loads(json_str)
+    data = json.loads(json_str)
     # print(data['country_code'])
+    keys = list(data.keys())
+else:
+    print('Request failed with status code', response.status_code)
+
+
+# # Check if the response was successful
+# if response.status_code == 200:
+
+#     # Replace all single quotes with double quotes
+#     json_str = response.text.replace("'", "\"")
+
+#     # Parse the modified JSON response
+#     data = json.loads(json_str)
+
+#     # Print the keys present in the data dictionary
+#     print(data.keys())
+
 # else:
 #     print('Request failed with status code', response.status_code)
 
 
 # Extract the relevant information from the JSON response
-city_name = json_str['city_name']
-country_code = json_str['country_code']
-timezone = json_str['timezone']
+city_name = keys["city_name"]
+country_code = keys["country_code"]
+timezone = keys["timezone"]
 
 # Get the list of forecast data points
 forecast_data = data["data"]
