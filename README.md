@@ -1,8 +1,8 @@
-My name is Franky and today is Tuesday, 13 June at 22:10 BST. 
+My name is Franky and today is Tuesday, 13 June at 22:20 BST. 
 
 I work at KPMG. I work as a DevOps Engineer in the engineering team.
 
-I am currently working on a github actions project.
+My tech stack are aws, python, github, linux, terraform. Some of my hobbies are chess and football.
 
 ## Skills
 <p align="center">
