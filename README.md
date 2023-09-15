@@ -1,4 +1,4 @@
-My name is Franky and today is Thursday, 14 September at 07:21 BST. 
+My name is Franky and today is Friday, 15 September at 07:20 BST. 
 
 I work at KPMG. I work as a DevOps Engineer in the engineering team.
 
