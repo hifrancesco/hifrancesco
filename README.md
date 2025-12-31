@@ -1,4 +1,4 @@
-My name is Franky and today is Tuesday, 30 December at 06:39 GMT. 
+My name is Franky and today is Wednesday, 31 December at 06:39 GMT. 
 
 I work at KPMG. I work as a DevOps Engineer in the engineering team.
 
