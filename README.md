@@ -1,4 +1,4 @@
-My name is Franky and today is Tuesday, 17 November at 15:43 GMT. 
+My name is Franky and today is Wednesday, 18 November at 15:23 GMT. 
 
 I work at KPMG. I work as a DevOps Engineer in the engineering team.
 
